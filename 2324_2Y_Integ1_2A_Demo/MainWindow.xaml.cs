@@ -49,7 +49,8 @@ namespace _2324_2Y_Integ1_2A_Demo
             btnMult.Content = "x";
             btnDiv.Content = "/";
             btnEnter.Content = "=";
-            btnSquare.Content = "x^2";
+            btnSquare.Content = "^2";
+            btnRoot.Content = "√";
             btnClear.Content = "Clear";
         }
 
@@ -61,7 +62,7 @@ namespace _2324_2Y_Integ1_2A_Demo
             if(input.Length > 5 )
                 input = input.Substring(1);
 
-            if (ope == -1)
+            if (ope == -1 || ope == 4)
                 num1 = int.Parse(input);
             else
                 num2 = int.Parse(input);
@@ -153,9 +154,23 @@ namespace _2324_2Y_Integ1_2A_Demo
         {
             ope = 3;
             tbCalc.Text = "";
-        } 
-        #endregion
+        }
+        private void btnSquare_Click(object sender, RoutedEventArgs e)
+        {
+            int square = num1 *= num1;
+            tbCalc.Text = square.ToString();
+        }
+        private void btnRoot_Click(object sender, RoutedEventArgs e)
+        {
+            double root = Math.Sqrt(num1);
+            tbCalc.Text = root.ToString();
+        }
 
+        #endregion
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            tbCalc.Text = "";
+        }
         private void btnEnter_Click(object sender, RoutedEventArgs e)
         {
             switch(ope)
@@ -180,11 +195,6 @@ namespace _2324_2Y_Integ1_2A_Demo
                 ope = -1;
                 num2 = 0;
             }
-        }
-
-        private void btnClear_Click(object sender, RoutedEventArgs e)
-        {
-            tbCalc.Text = "";
         }
     }
 }

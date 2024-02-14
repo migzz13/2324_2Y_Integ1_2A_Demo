@@ -25,23 +25,24 @@
             Width="64" Height="59" FontSize="28" FontWeight="Bold" Click="btn2_Click"/>
         <Button x:Name="btn1" Content="X" HorizontalAlignment="Left" Margin="149,210,0,0" VerticalAlignment="Top" 
             Width="63" Height="59" FontSize="28" FontWeight="Bold" Click="btn1_Click"/>
-        <Button x:Name="btn0" Content="X" HorizontalAlignment="Left" Margin="79,275,0,0" VerticalAlignment="Top" 
+        <Button x:Name="btn0" Content="X" HorizontalAlignment="Left" Margin="150,276,0,0" VerticalAlignment="Top" 
             Width="64" Height="59" FontSize="28" FontWeight="Bold" Click="btn0_Click"/>
         <Button x:Name="btnAdd" Content="X" HorizontalAlignment="Left" Margin="218,82,0,0" VerticalAlignment="Top" 
             Width="65" Height="58" FontSize="28" FontWeight="Bold" Click="btnAdd_Click"/>
         <Button x:Name="btnMin" Content="X" HorizontalAlignment="Left" Margin="218,146,0,0" VerticalAlignment="Top" 
             Width="65" Height="59" FontSize="28" FontWeight="Bold" Click="btnMin_Click"/>
-        <Button x:Name="btnMult" Content="X" HorizontalAlignment="Left" Margin="218,210,0,0" VerticalAlignment="Top" 
+        <Button x:Name="btnMult" Content="X" HorizontalAlignment="Left" Margin="288,82,0,0" VerticalAlignment="Top" 
             Width="65" Height="59" FontSize="28" FontWeight="Bold" Click="btnMult_Click"/>
-        <Button x:Name="btnDiv" Content="X" HorizontalAlignment="Left" Margin="218,275,0,0" VerticalAlignment="Top" 
-            Width="65" Height="59" FontSize="28" FontWeight="Bold" Click="btnDiv_Click"/>
-        <Button x:Name="btnEnter" Content="X" HorizontalAlignment="Left" Margin="149,275,0,0" VerticalAlignment="Top" 
-            Width="63" Height="59" FontSize="28" FontWeight="Bold" Click="btnEnter_Click"/>
-        <Button x:Name="btnSquare" Content="X" HorizontalAlignment="Left" Height="58" Margin="10,276,0,0" VerticalAlignment="Top" Width="63"
-                FontSize="28" FontWeight="Bold"/>
-        <Button x:Name="btnClear" Content="X" HorizontalAlignment="Left" Margin="10,340,0,0" VerticalAlignment="Top"
-            Width="273" Height="58" FontSize="28" FontWeight="Bold" Click="btnClear_Click"/>
+        <Button x:Name="btnDiv" Content="X" HorizontalAlignment="Left" Margin="289,146,0,0" VerticalAlignment="Top" 
+            Width="64" Height="59" FontSize="28" FontWeight="Bold" Click="btnDiv_Click"/>
+        <Button x:Name="btnEnter" Content="X" HorizontalAlignment="Left" Margin="10,276,0,0" VerticalAlignment="Top" 
+            Width="134" Height="59" FontSize="28" FontWeight="Bold" Click="btnEnter_Click"/>
+        <Button x:Name="btnSquare" Content="X" HorizontalAlignment="Left" Height="58" Margin="219,211,0,0" VerticalAlignment="Top" Width="63"
+                FontSize="28" FontWeight="Bold" Click="btnSquare_Click"/>
+        <Button x:Name="btnClear" Content="X" HorizontalAlignment="Left" Margin="219,276,0,0" VerticalAlignment="Top"
+            Width="135" Height="59" FontSize="28" FontWeight="Bold" Click="btnClear_Click"/>
         <TextBox x:Name="tbCalc" HorizontalAlignment="Left" Margin="10,16,0,0" TextWrapping="Wrap" Text="" 
-                 VerticalAlignment="Top" Width="273" FontSize="28" IsEnabled="False" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="58"/>
+                 VerticalAlignment="Top" Width="343" FontSize="28" IsEnabled="False" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="58"/>
+        <Button x:Name="btnRoot" Content="X" HorizontalAlignment="Left" Height="59" Width="65" Margin="289,210,0,0" FontSize="28" FontWeight="Bold" VerticalAlignment="Top" Click="btnRoot_Click" />
     </Grid>
 </Window>
