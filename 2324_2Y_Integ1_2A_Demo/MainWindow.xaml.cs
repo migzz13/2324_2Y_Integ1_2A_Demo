@@ -49,6 +49,8 @@ namespace _2324_2Y_Integ1_2A_Demo
             btnMult.Content = "x";
             btnDiv.Content = "/";
             btnEnter.Content = "=";
+            btnSquare.Content = "x^2";
+            btnClear.Content = "Clear";
         }
 
         private void numberEnter(int x)

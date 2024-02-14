@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2324_2Y_Integ1_2A_Demo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Calculator" Height="450" Width="800">
     <Grid>
         <Button x:Name="btn9" Content="X" HorizontalAlignment="Left" Margin="28,78,0,0" VerticalAlignment="Top" 
         Width="50" Height="50" FontSize="28" FontWeight="Bold" Click="btn9_Click"/>
@@ -37,9 +37,11 @@
             Width="50" Height="50" FontSize="28" FontWeight="Bold" Click="btnDiv_Click"/>
         <Button x:Name="btnEnter" Content="X" HorizontalAlignment="Left" Margin="138,243,0,0" VerticalAlignment="Top" 
             Width="50" Height="50" FontSize="28" FontWeight="Bold" Click="btnEnter_Click"/>
+        <Button x:Name="btnClear" Content="X" HorizontalAlignment="Left" Margin="28,298,0,0" VerticalAlignment="Top"
+            Width="215" Height="50" FontSize="28" FontWeight="Bold"/>
         <TextBox x:Name="tbCalc" HorizontalAlignment="Left" Margin="28,22,0,0" TextWrapping="Wrap" Text="" 
                  VerticalAlignment="Top" Width="215" FontSize="28" IsEnabled="False" HorizontalContentAlignment="Right"/>
-
-
+        <Button x:Name="btnSquare" Content="X" HorizontalAlignment="Left" Height="49" Margin="28,244,0,0" VerticalAlignment="Top" Width="50"
+                FontSize="28" FontWeight="Bold"/>
     </Grid>
 </Window>
